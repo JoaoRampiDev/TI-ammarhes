@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto TI-AMMARHES</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+<header>
+    <div class="containerHeader">
+        <div class="logo">Projeto TI-AMMARHES</div>
+      <div class="dnav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+
+            <li><a href="Sobre.html">Sobre</a></li>
+
+            <li><a href="Serviços.html">Serviços</a></li>
+          </ul>
+        </nav>
+      </div> 
+        <div class="container">
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')">Todos</button>
+            <button class="btn" onclick="filterSelection('sm')">Saúde mental</button>
+            <button class="btn" onclick="filterSelection('epiepc')">Uso adequado de EPIs e EPCs</button>
+            <button class="btn" onclick="filterSelection('se')">Segurança elétrica</button>
+            <button class="btn" onclick="filterSelection('stbd')">Sustentabilidade</button>
+            <button class="btn" onclick="filterSelection('ergn')">Ergonomia</button>
+            <button class="btn" onclick="filterSelection('ps')">Primeiros socorros</button>
+          </div>
+
+        </div>
+    </div>
+</header>
+<main>
+  <section>
+    <div class="containerBloco">
+      <div class="filterDiv sm">
+        <h1>Saúde mental</h1>
+        <h4>O bem-estar psicológico dos colaboradores não apenas impacta diretamente o desempenho, a criatividade e a tomada de decisões, mas também influencia a dinâmica organizacional como um todo. 
+
+          Iniciativas que abordam a saúde mental, como programas de apoio psicológico, conscientização sobre o equilíbrio entre vida pessoal e profissional e outras questões relacionadas a esse assunto contribuem para a construção de um ambiente inclusivo e empático. 
+          
+          Ao reconhecer e abordar as necessidades psicológicas dos funcionários, as empresas cultivam um clima organizacional positivo e fortalecem o comprometimento e a satisfação da equipe.</h4>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="filterDiv epiepc">
+        <h1>Uso adequado de EPIs e EPCs</h1>
+        <h4>A utilização adequada dos Equipamentos de Proteção Individual (EPIs) e Equipamentos de Proteção Coletiva (EPCs) é fundamental na preservação da integridade física dos trabalhadores e na promoção de ambientes de trabalho seguros.
+
+          Os EPIs, como capacetes, luvas, óculos e calçados de segurança, são projetados para proporcionar proteção individual contra riscos específicos, desde agentes químicos até impactos físicos. Já os EPCs, como guarda-corpos e sistemas de ventilação, visam proteger grupos de trabalhadores contra riscos coletivos.
+          
+          Ao adotar e utilizar corretamente esses dispositivos, os trabalhadores minimizam os riscos de acidentes e lesões e contribuem para a construção de uma cultura de segurança, onde a prevenção é prioridade. Essa prática atende às exigências normativas e reflete o compromisso da organização com o bem-estar de seus colaboradores.</h4>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="filterDiv se">
+        <h1>Segurança elétrica</h1>
+        <h4>A eletricidade é uma fonte de energia essencial, mas também pode representar riscos significativos se não for manuseada adequadamente. A implementação de práticas e procedimentos seguros visa prevenir acidentes, protegendo os trabalhadores contra choques, incêndios e outros perigos associados à eletricidade. 
+
+          A conscientização sobre os princípios básicos da segurança elétrica, o uso correto de EPIs, a inspeção regular de instalações elétricas e a formação contínua dos profissionais são passos primordiais para reduzir riscos. 
+          
+          Além de garantir a segurança dos trabalhadores, a atenção à segurança elétrica também preserva a integridade dos equipamentos, diminuindo o risco de falhas e interrupções.</h4>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="filterDiv stbd">
+        <h1>Sustentabilidade no trabalho</h1>
+        <h4>Empresas sustentáveis diminuem seu impacto negativo no ecossistema e buscam oportunidades para implementar práticas mais ecoeficientes.
+
+          A incorporação de medidas de sustentabilidade, como gestão adequada de resíduos, redução do consumo de recursos naturais e promoção da eficiência energética, atende a demandas ambientais e impulsiona a reputação da organização. 
+          
+          Além disso, fortalece a satisfação dos colaboradores, atraindo talentos comprometidos com valores éticos e ambientais. </h4>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="filterDiv ergn">
+        <h1>Ergonomia</h1>
+        <h4>Ao projetar espaços de trabalho que se adequam às características físicas e psicológicas dos indivíduos, a ergonomia visa prevenir lesões musculoesqueléticas e fadiga, promovendo conforto e produtividade. 
+
+          A adequação ergonômica de mobiliários, equipamentos e postos de trabalho reduz o risco de problemas de saúde ocupacional, como dores nas costas e lesões repetitivas, e contribui para a motivação dos funcionários. 
+          
+          Ao considerar cuidadosamente o design ergonômico, as empresas demonstram compromisso com a saúde e o conforto de sua equipe, resultando em ambientes de trabalho mais saudáveis, eficientes e propícios ao desenvolvimento contínuo de suas atividades laborais.
+          
+          </h4>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="filterDiv ps">
+        <h1>Primeiros socorros</h1>
+        <h4>Ao proporcionar treinamento em técnicas de primeiros socorros, as organizações capacitam seus colaboradores a lidar com lesões ou condições médicas imprevistas, promovendo a segurança e o bem-estar no local de trabalho. 
+
+          A habilidade de administrar cuidados básicos enquanto aguardam assistência profissional pode salvar vidas. 
+          
+          Além disso, a formação em primeiros socorros cria uma cultura de responsabilidade e solidariedade entre os membros da equipe, estabelecendo um ambiente em que a prontidão para agir em situações críticas é valorizada.</h4>
+      </div> 
+      <br>
+      <br>
+      <hr> 
+    </div>
+    <a href="https://www.sankhya.com.br/blog/dds-temas/" target="_blank" ><strong><h4>fonte: www.sankhya.com.br</h4></strong></a>
+  </section>
+</main>
+<footer style="height: 80px;">
+  <div class="footServico">
+    <h2>Obrigado pela oportunidade!</h2>
+  </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
